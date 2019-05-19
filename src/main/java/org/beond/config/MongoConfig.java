@@ -34,10 +34,11 @@ public class MongoConfig extends AbstractMongoConfiguration {
     public MongoTemplate mongoTemplate() throws IOException {
     	
     	// spring boot application 이 기동될 떄 
-    	// embedded mongo db 가 자동으로 같이 기동 되며
-    	// 해당 mongo db 의 client 를 생성하는 코드 
+    	// embedded mongo db 를 기동하도록 설정 
         EmbeddedMongoFactoryBean mongo = new EmbeddedMongoFactoryBean();
         mongo.setBindIp(MONGO_DB_URL);
+
+    	// 해당 mongo db 의 client 를 생성하는 코드
         MongoClient mongoClient = mongo.getObject();                
         this.mongoClient = mongoClient;
         
