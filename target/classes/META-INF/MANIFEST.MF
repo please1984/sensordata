@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: beond-project
+Implementation-Version: 2.0.3.RELEASE
+Built-By: beond
+Implementation-Vendor-Id: org.beond
+Build-Jdk: 1.8.0_202
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/beond-project
+Created-By: Maven Integration for Eclipse
+Main-Class: org.beond.SensorDataApplication
+
