@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 
 /**
  * mongodb 내 sensor_data collection 조회하는 repository
- * 기본적으로 findAll / findById 등의 기본 method 를 제공
+ * 기본적으로 findAll 등의 기본 method 를 제공
  * @author beond
  *
  */
